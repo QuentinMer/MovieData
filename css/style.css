@@ -1,0 +1,59 @@
+.logoSite {
+    width: 90px;
+    height: 60px;
+}
+
+.bodySerie {
+    background-image: radial-gradient(circle at center left, rgb(46, 46, 46) 0%, rgb(46, 46, 46) 6%, rgb(41, 41, 41) 6%, rgb(41, 41, 41) 27%, rgb(36, 36, 36) 27%, rgb(36, 36, 36) 42%, rgb(31, 31, 31) 42%, rgb(31, 31, 31) 63%, rgb(25, 25, 25) 63%, rgb(25, 25, 25) 64%, rgb(20, 20, 20) 64%, rgb(20, 20, 20) 71%, rgb(15, 15, 15) 71%, rgb(15, 15, 15) 100%);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    height: 100vh; 
+    margin: 0;
+}
+
+.bodyHome {
+    background-image: radial-gradient(circle at top left, rgb(48, 48, 48) 0%, rgb(48, 48, 48) 8%, rgb(46, 46, 46) 8%, rgb(46, 46, 46) 57%, rgb(43, 43, 43) 57%, rgb(43, 43, 43) 65%, rgb(41, 41, 41) 65%, rgb(41, 41, 41) 67%, rgb(39, 39, 39) 67%, rgb(39, 39, 39) 72%, rgb(36, 36, 36) 72%, rgb(36, 36, 36) 80%, rgb(34, 34, 34) 80%, rgb(34, 34, 34) 100%);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    height: 100vh; 
+    margin: 0;
+}
+
+.bodyFilm {
+    background-image: radial-gradient(circle at top right, rgb(78, 78, 78) 0%, rgb(78, 78, 78) 1%, rgb(72, 72, 72) 1%, rgb(72, 72, 72) 10%, rgb(65, 65, 65) 10%, rgb(65, 65, 65) 22%, rgb(59, 59, 59) 22%, rgb(59, 59, 59) 23%, rgb(53, 53, 53) 23%, rgb(53, 53, 53) 28%, rgb(46, 46, 46) 28%, rgb(46, 46, 46) 37%, rgb(40, 40, 40) 37%, rgb(40, 40, 40) 100%);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    height: 100vh; 
+    margin: 0;
+}
+.titre {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: transparent; 
+    -webkit-text-stroke: 2px #18bc9c; 
+    text-align: center; 
+    margin-top: 10%;
+    font-size: 120px; /* Taille par défaut */
+}
+
+@media (max-width: 768px) {
+    .titre {
+        margin-top: 20%;
+        font-size: 80px; /* Taille pour les petits écrans */
+    }
+}
+
+@media (max-width: 576px) {
+    .titre {
+        margin-top: 40%;
+        font-size: 45px; /* Taille pour les très petits écrans */
+    }
+}
+.titre:hover{
+    color: #18bc9c;
+}

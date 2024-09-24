@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie data</title>
+    <link href="node_modules/bootswatch/dist/flatly/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/film.css">
+</head>
+<body class="bodyFilm">
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg bg-primary fixed-top" data-bs-theme="dark">
+        <div class="container-fluid">
+            <img class="rounded img-fluid logoSite" src="images/titreSite.png" alt="logo" />
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="film.html">Film<span class="visually-hidden">(current)</span></a></li>
+                    <li class="nav-item"><a class="nav-link active" href="serie.html">Série</a></li>
+                </ul>
+                <form class="d-flex" id="search-form">
+                    <input class="form-control me-sm-2" type="search" id="search-input" placeholder="chercher série" />
+                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Recherche</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--contenu-->
+    <div class="container text-white custom row mx-auto" id="tv-container"></div>
+
+    <!-- Inclusion des scripts JS à la fin du body -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/serie.js"></script>
+</body>
+</html>
