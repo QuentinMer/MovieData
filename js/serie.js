@@ -3,7 +3,7 @@ const apiKey = "e7a140e810507e70103cafb782408835"; // Remplacez par votre clé A
 
 // Fonction pour charger les séries populaires
 const loadPopularSeries = () => {
-    const url = `https://api.themoviedb.org/3/tv/recent?api_key=${apiKey}&language=fr&page=1`;
+    const url = `https://api.themoviedb.org/3/tv/popular?api_key=${apiKey}&language=fr&page=1`;
     loadShows(url);
 };
 
